@@ -1,0 +1,1939 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f2fcccad-ef4b-4bcd-b49a-702135af2a13")
+	(paper "A4")
+	(title_block
+		(title "ZX Spectrum 48K Composite Mod PCB")
+		(date "2026-01-24")
+		(rev "1.0")
+		(company "Submeson Brain Corporation")
+	)
+	(lib_symbols
+		(symbol "Spectrum-48K-Video-Mod-rescue:CONN_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 2.032 0 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CONN_1"
+				(at 0 1.397 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CONN_1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.7874)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CONN_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Spectrum-48K-Video-Mod-rescue:CP1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CP1"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP* SM*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CP1_0_0"
+				(text "+"
+					(at -1.27 2.54 0)
+					(effects
+						(font
+							(size 2.032 2.032)
+						)
+					)
+				)
+			)
+			(symbol "CP1_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -1.27)
+					(mid 0 -0.5009)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CP1_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 4.572)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Spectrum-48K-Video-Mod-rescue:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 1.016 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.143)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -1.27) (xy -1.397 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "GNDPWR"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Spectrum-48K-Video-Mod-rescue:NPN"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "NPN"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NPN_0_1"
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 -1.905) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.286) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.286) (xy 1.778 -0.762) (xy 0.762 -1.778) (xy 2.286 -2.286) (xy 2.286 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "NPN_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Spectrum-48K-Video-Mod-rescue:PNP"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "PNP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PNP_0_1"
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 -1.905) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 0 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 1.27 -1.905) (xy 1.905 -1.27) (xy 0.635 -0.635) (xy 0.635 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.651 -1.651) (xy 1.651 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PNP_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Spectrum-48K-Video-Mod-rescue:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R? SM0603 SM0805 R?-* SM1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 3.81)
+					(end 1.016 -3.81)
+					(stroke
+						(width 0.3048)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Single Transistor Output"
+		(exclude_from_sim no)
+		(at 157.734 63.5 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "296e1136-73b9-4b81-98dc-3d71041377f6")
+	)
+	(text "Option 1"
+		(exclude_from_sim no)
+		(at 92.71 59.436 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "432be7dc-d3dc-4ac8-a799-38b0d008a014")
+	)
+	(text "Option 2"
+		(exclude_from_sim no)
+		(at 165.1 59.436 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "760d9501-080a-4364-9480-7ddb5aa09bf8")
+	)
+	(text "Option 3"
+		(exclude_from_sim no)
+		(at 226.06 59.436 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "da17a551-3e72-475f-8edc-3c72af0b95c7")
+	)
+	(text "Capacitor Output"
+		(exclude_from_sim no)
+		(at 221.742 63.5 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "f36a15d2-c9d1-40b5-b0dd-6aff708bf366")
+	)
+	(text "Inverted Emitter Follower Output"
+		(exclude_from_sim no)
+		(at 80.518 63.5 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8ddfb10-7203-48c9-a1fd-3fcfecbb81cf")
+	)
+	(junction
+		(at 101.092 89.408)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6cd759f-063f-4fba-a1c8-864231ad3e31")
+	)
+	(wire
+		(pts
+			(xy 171.704 108.966) (xy 172.466 108.966)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f5deda-d60f-4f62-a672-afef8e596a0b")
+	)
+	(wire
+		(pts
+			(xy 171.704 82.804) (xy 172.72 82.804)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d70c09-930d-4a60-abac-8ccb2d08a355")
+	)
+	(wire
+		(pts
+			(xy 101.092 103.378) (xy 101.092 100.584)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cfd706e-bde9-4d2d-838c-70853312cd6d")
+	)
+	(wire
+		(pts
+			(xy 101.092 74.676) (xy 100.076 74.676)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df980ed-161c-427b-b7c1-bf15ebaaa70f")
+	)
+	(wire
+		(pts
+			(xy 101.092 89.408) (xy 104.902 89.408)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e45020-b573-478c-b9d8-6206eb654c06")
+	)
+	(wire
+		(pts
+			(xy 171.704 94.488) (xy 171.704 95.504)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50564e97-b779-4c0a-b89e-ec6476a92598")
+	)
+	(wire
+		(pts
+			(xy 93.472 95.504) (xy 91.694 95.504)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54b6a209-d785-4832-b681-a73c7f23ebb2")
+	)
+	(wire
+		(pts
+			(xy 101.092 89.408) (xy 101.092 90.424)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1ca489-4056-40c8-9085-4e39d278c27e")
+	)
+	(wire
+		(pts
+			(xy 101.092 75.692) (xy 101.092 74.676)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d1f6725-f360-4956-8fdf-c8d7c1ef81bd")
+	)
+	(wire
+		(pts
+			(xy 101.092 88.392) (xy 101.092 89.408)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfff4a9-d437-462f-9f09-d393bb2b4b9b")
+	)
+	(wire
+		(pts
+			(xy 171.704 108.204) (xy 171.704 108.966)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5dee83c-f774-42cf-ace6-a8e1cda6afb8")
+	)
+	(wire
+		(pts
+			(xy 171.704 84.328) (xy 171.704 82.804)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e033d52d-7a5b-4181-9171-cbd24abfea9f")
+	)
+	(global_label "VIDEO_IN"
+		(shape input)
+		(at 225.806 89.408 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11a19fbd-5def-44ba-bffe-2f5fd273fd10")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.806 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIDEO_OUT"
+		(shape input)
+		(at 235.966 89.408 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1744a79f-1f84-49fb-84b1-2cc6c9a8b841")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.966 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIDEO_IN"
+		(shape input)
+		(at 91.694 95.504 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d01b59a-5122-4284-afe9-d0e1f932a7e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.694 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 172.72 82.804 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "257050a8-c0ab-40c9-9417-d070402dedfd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.72 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 100.076 74.676 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27f703f0-faff-4bd9-bf5c-47e3261ecf8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.076 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIDEO_OUT"
+		(shape input)
+		(at 115.062 89.408 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41552ebe-a07a-4b34-840d-88921c5b2302")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.062 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIDEO_IN"
+		(shape input)
+		(at 164.084 89.408 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49e2365b-895b-43db-88af-ab738861a104")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.084 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIDEO_IN"
+		(shape input)
+		(at 51.054 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59dda147-0a3c-419e-9bbb-0e95a9517f3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.054 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 50.8 74.168 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6928cb55-8ce8-4353-bf38-007fd66b76d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIDEO_OUT"
+		(shape input)
+		(at 172.466 108.966 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc713807-367c-46e1-a220-531d1d67a1a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.466 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIDEO_OUT"
+		(shape input)
+		(at 50.8 94.742 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2ea6e32-39d0-49f6-99d1-2df8039c47be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Spectrum-48K-Video-Mod-rescue:CP1")
+		(at 109.982 89.408 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005956340d")
+		(property "Reference" "C1"
+			(at 107.442 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 112.522 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitors_THT:CP_Radial_D7.5mm_P2.50mm"
+			(at 109.982 89.408 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.982 89.408 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.982 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33ae13fd-ac64-4b1d-b0b7-c9c5e598025d")
+		)
+		(pin "2"
+			(uuid "77f49550-c2a2-4011-a4a0-53e0c79b7cff")
+		)
+		(instances
+			(project "Spectrum 48K Video Mod"
+				(path "/f2fcccad-ef4b-4bcd-b49a-702135af2a13"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Spectrum-48K-Video-Mod-rescue:PNP")
+		(at 98.552 95.504 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000595634e2")
+		(property "Reference" "Q1"
+			(at 98.552 91.694 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 98.552 99.314 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval"
+			(at 98.552 95.504 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 98.552 95.504 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 98.552 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3892afd-3d45-474e-b2fd-8ff2c9b9200c")
+		)
+		(pin "2"
+			(uuid "26f48686-3a09-4b76-bbb3-b6ae49778adf")
+		)
+		(pin "3"
+			(uuid "fe1c74d8-8c14-4c40-af12-a7f39533b979")
+		)
+		(instances
+			(project "Spectrum 48K Video Mod"
+				(path "/f2fcccad-ef4b-4bcd-b49a-702135af2a13"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Spectrum-48K-Video-Mod-rescue:R")
+		(at 101.092 82.042 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000595634fb")
+		(property "Reference" "R1"
+			(at 103.124 82.042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 101.092 82.042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 101.092 82.042 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.092 82.042 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.092 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "614958b4-f559-4278-9ecf-abe82d36097f")
+		)
+		(pin "2"
+			(uuid "2156e8b4-9b9b-47cd-94ba-3ffa81461a33")
+		)
+		(instances
+			(project "Spectrum 48K Video Mod"
+				(path "/f2fcccad-ef4b-4bcd-b49a-702135af2a13"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Spectrum-48K-Video-Mod-rescue:GND")
+		(at 101.092 103.378 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000059563673")
+		(property "Reference" "#PWR01"
+			(at 101.092 102.362 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 101.092 105.664 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.092 103.378 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.092 103.378 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.092 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f2b738d-d43e-4c25-b0f9-a7717378de75")
+		)
+		(instances
+			(project "Spectrum 48K Video Mod"
+				(path "/f2fcccad-ef4b-4bcd-b49a-702135af2a13"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Spectrum-48K-Video-Mod-rescue:CONN_1")
+		(at 46.99 74.168 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005965f535")
+		(property "Reference" "P1"
+			(at 44.958 74.168 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CONN_1"
+			(at 46.99 75.565 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm"
+			(at 46.99 74.168 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 74.168 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0253868-1f21-41a0-9ab6-707414f98c3a")
+		)
+		(instances
+			(project "Spectrum 48K Video Mod"
+				(path "/f2fcccad-ef4b-4bcd-b49a-702135af2a13"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Spectrum-48K-Video-Mod-rescue:CONN_1")
+		(at 47.244 84.328 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005965f748")
+		(property "Reference" "P2"
+			(at 45.212 84.328 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CONN_1"
+			(at 47.244 85.725 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm"
+			(at 47.244 84.328 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 47.244 84.328 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 47.244 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d2ab7e9-d4e0-4e12-ae4a-0079b86745f3")
+		)
+		(instances
+			(project "Spectrum 48K Video Mod"
+				(path "/f2fcccad-ef4b-4bcd-b49a-702135af2a13"
+					(reference "P2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Spectrum-48K-Video-Mod-rescue:CONN_1")
+		(at 46.99 94.742 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005965f800")
+		(property "Reference" "P3"
+			(at 44.958 94.742 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CONN_1"
+			(at 46.99 96.139 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm"
+			(at 46.99 94.742 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 94.742 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c91204e8-4995-4df5-a236-87e245ccb6d0")
+		)
+		(instances
+			(project "Spectrum 48K Video Mod"
+				(path "/f2fcccad-ef4b-4bcd-b49a-702135af2a13"
+					(reference "P3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Spectrum-48K-Video-Mod-rescue:CP1")
+		(at 230.886 89.408 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005965fe28")
+		(property "Reference" "C2"
+			(at 228.346 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 233.426 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitors_THT:CP_Radial_D7.5mm_P2.50mm"
+			(at 230.886 89.408 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 230.886 89.408 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 230.886 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96d11141-21df-4d04-a8fd-bd4a38e1e0e3")
+		)
+		(pin "2"
+			(uuid "84d6c1f1-feba-4d58-bed5-3e3ac515a348")
+		)
+		(instances
+			(project "Spectrum 48K Video Mod"
+				(path "/f2fcccad-ef4b-4bcd-b49a-702135af2a13"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Spectrum-48K-Video-Mod-rescue:NPN")
+		(at 169.164 89.408 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000059660987")
+		(property "Reference" "Q2"
+			(at 169.164 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NPN"
+			(at 169.164 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval"
+			(at 169.164 89.408 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 169.164 89.408 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 169.164 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5cc7edbe-c02f-4e08-a867-2c65b20d13a9")
+		)
+		(pin "2"
+			(uuid "5f09cf40-2f41-4e55-be38-4956ae95e672")
+		)
+		(pin "3"
+			(uuid "7d6f72ea-556f-40d3-9e88-e53a8c4479a4")
+		)
+		(instances
+			(project "Spectrum 48K Video Mod"
+				(path "/f2fcccad-ef4b-4bcd-b49a-702135af2a13"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Spectrum-48K-Video-Mod-rescue:R")
+		(at 171.704 101.854 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000059663c2e")
+		(property "Reference" "R2"
+			(at 173.736 101.854 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 171.704 101.854 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 171.704 101.854 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.704 101.854 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.704 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "81666233-de28-4c15-be60-797ddd3f7989")
+		)
+		(pin "1"
+			(uuid "bd25c0d7-cff4-45e8-87f6-01e458e7e751")
+		)
+		(instances
+			(project "Spectrum 48K Video Mod"
+				(path "/f2fcccad-ef4b-4bcd-b49a-702135af2a13"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

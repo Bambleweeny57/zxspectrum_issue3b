@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "zx_spectrum_composite_mod")(type "KiCad")(uri "${KIPRJMOD}/zx_spectrum_composite_mod.kicad_sym")(options "")(descr ""))
+)
