@@ -68,8 +68,6 @@ A full PCB replacement for the RF modulator can itself.
 | `/composite_modulator` | Full modulator replacement PCB |
 | `README.md` | Project overview |
 
-*(Adjust folder names if needed — I can match them exactly to your repo.)*
-
 ---
 
 ## 🔧 Build Status
