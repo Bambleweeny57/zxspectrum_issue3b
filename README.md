@@ -1,4 +1,4 @@
-# **ZX Spectrum Issue 3B — KiCad Reconstruction **
+# **ZX Spectrum Issue 3B — KiCad Reconstruction**
 
 A faithful KiCad recreation of the **Sinclair ZX Spectrum Issue 3B motherboard**, reconstructed from original Gerber data and fully validated through multiple successful builds.  
 This project preserves the 3B layout in an editable, open format and includes several companion PCBs designed to modernise, repair, or enhance the original Spectrum hardware.
