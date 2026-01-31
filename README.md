@@ -63,9 +63,9 @@ A full PCB replacement for the RF modulator can itself.
 | Path | Description |
 |------|-------------|
 | `/src` | KiCad project files for the Issue 3B board |
-| `/coil_pcb` | Coil replacement PCB |
-| `/composite_mod` | Composite mod PCB (internal modulator replacement) |
-| `/composite_modulator` | Full modulator replacement PCB |
+| `/zx_coil` | Coil replacement PCB |
+| `/zx_composite_mod` | Composite mod PCB (internal modulator replacement) |
+| `/zx_composite_modulator` | Full modulator replacement PCB |
 | `README.md` | Project overview |
 
 ---
