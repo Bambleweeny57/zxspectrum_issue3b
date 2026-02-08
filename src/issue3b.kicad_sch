@@ -16183,7 +16183,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 499.11) (xy 116.84 499.11)
+			(xy 132.08 499.11) (xy 116.84 499.11)
 		)
 		(stroke
 			(width 0)
@@ -25003,16 +25003,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 499.11) (xy 151.13 499.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a775ed31-fc7c-41eb-85b0-d07ab9b108e7")
-	)
-	(wire
-		(pts
 			(xy 373.38 424.18) (xy 373.38 443.23)
 		)
 		(stroke
@@ -29493,7 +29483,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 499.11) (xy 143.51 499.11)
+			(xy 139.7 499.11) (xy 152.4 499.11)
 		)
 		(stroke
 			(width 0)
@@ -41859,7 +41849,7 @@
 				)
 			)
 		)
-		(property "Value" "8k2"
+		(property "Value" "8K2"
 			(at 368.3 426.72 90)
 			(effects
 				(font
@@ -42058,7 +42048,7 @@
 				)
 			)
 		)
-		(property "Value" "8k2"
+		(property "Value" "8K2"
 			(at 372.11 426.72 90)
 			(effects
 				(font
@@ -42477,7 +42467,7 @@
 				)
 			)
 		)
-		(property "Value" "8k2"
+		(property "Value" "8K2"
 			(at 375.92 426.72 90)
 			(effects
 				(font
@@ -42544,7 +42534,7 @@
 				)
 			)
 		)
-		(property "Value" "8k2"
+		(property "Value" "8K2"
 			(at 379.73 426.72 90)
 			(effects
 				(font
@@ -42677,7 +42667,7 @@
 				)
 			)
 		)
-		(property "Value" "8k2"
+		(property "Value" "8K2"
 			(at 383.54 426.72 90)
 			(effects
 				(font
@@ -42744,7 +42734,7 @@
 				)
 			)
 		)
-		(property "Value" "8k2"
+		(property "Value" "8K2"
 			(at 387.35 426.72 90)
 			(effects
 				(font
@@ -42811,7 +42801,7 @@
 				)
 			)
 		)
-		(property "Value" "8k2"
+		(property "Value" "8K2"
 			(at 391.16 426.72 90)
 			(effects
 				(font
@@ -42878,7 +42868,7 @@
 				)
 			)
 		)
-		(property "Value" "8k2"
+		(property "Value" "8K2"
 			(at 394.97 426.72 90)
 			(effects
 				(font
@@ -44306,15 +44296,15 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 128.27 499.11 0)
+		(at 135.89 499.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061481615")
-		(property "Reference" "D18"
-			(at 130.81 501.65 0)
+		(property "Reference" "D12"
+			(at 138.43 501.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44323,7 +44313,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 127.127 501.142 90)
+			(at 134.747 501.142 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44333,7 +44323,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 503.555 0)
+			(at 135.89 503.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44342,7 +44332,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 128.27 499.11 0)
+			(at 135.89 499.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44351,7 +44341,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 499.11 0)
+			(at 135.89 499.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44368,7 +44358,7 @@
 		(instances
 			(project ""
 				(path "/07f22ea6-4813-487d-9e01-b5b6de3af68a"
-					(reference "D18")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -44582,7 +44572,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006177fefa")
-		(property "Reference" "D19"
+		(property "Reference" "D16"
 			(at 154.432 490.3216 90)
 			(effects
 				(font
@@ -44636,7 +44626,7 @@
 		(instances
 			(project ""
 				(path "/07f22ea6-4813-487d-9e01-b5b6de3af68a"
-					(reference "D19")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -45583,73 +45573,6 @@
 			(project ""
 				(path "/07f22ea6-4813-487d-9e01-b5b6de3af68a"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 147.32 499.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000062099b3b")
-		(property "Reference" "R79"
-			(at 146.05 496.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k2"
-			(at 146.05 501.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 500.888 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 499.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 499.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac59f7f4-abc9-4698-993e-3e8668df2170")
-		)
-		(pin "2"
-			(uuid "e5899e09-cf58-4d91-b5f9-205cd30288c6")
-		)
-		(instances
-			(project ""
-				(path "/07f22ea6-4813-487d-9e01-b5b6de3af68a"
-					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -48142,7 +48065,7 @@
 				)
 			)
 		)
-		(property "Value" "4K7"
+		(property "Value" "2K2"
 			(at 116.84 255.27 90)
 			(effects
 				(font
@@ -48343,7 +48266,7 @@
 				)
 			)
 		)
-		(property "Value" "8K2"
+		(property "Value" "4K7"
 			(at 104.14 247.65 90)
 			(effects
 				(font
@@ -53520,7 +53443,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ZTX313"
+		(property "Value" "ZTX213"
 			(at 38.3286 425.323 0)
 			(effects
 				(font
