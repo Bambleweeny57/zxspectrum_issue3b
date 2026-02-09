@@ -110,6 +110,31 @@ This reconstruction preserves the original routing and component placement as cl
 
 ---
 
+## 🤝 Contributing
+
+Contributions that improve accuracy, documentation, or long‑term preservation of the Issue 3B are welcome.  
+This includes:
+
+- Verified corrections to the schematic or PCB reconstruction  
+- High‑resolution board scans, trace photos, or component placement references  
+- Improvements to KiCad symbols, footprints, or net annotations  
+- Build reports, troubleshooting notes, or compatibility findings  
+- Additional companion PCBs that relate to the 3B ecosystem  
+
+Please open an issue or pull request with clear details so changes can be reviewed and validated against real hardware where possible.
+
+---
+
+## 📜 License
+
+This project is released for educational, preservation, and hobbyist use.  
+You are free to study, modify, and build from the files provided.
+
+The original Sinclair ZX Spectrum design remains the intellectual property of its respective rights holders.  
+Please credit this repository when redistributing modified versions, and respect the historical significance of the original hardware.
+
+---
+
 ## 🚀 How to Use This Project
 
 ### **Open in KiCad**
