@@ -58,6 +58,20 @@ A full PCB replacement for the RF modulator can itself.
 
 ---
 
+## 🧩 Issue 3B Schematic (Work in Progress)
+
+A full schematic for the **Issue 3B motherboard** is currently being drafted.  
+It lives in the main **`/src`** directory alongside the KiCad PCB project and is already far enough along to be useful for reference, verification, and troubleshooting.
+
+- Based on the reconstructed PCB  
+- Continuously refined as traces and nets are validated  
+- Intended to become a complete, accurate representation of the 3B circuitry  
+- A PDF export is also included in **`/images`** for quick viewing
+
+This schematic will evolve as the project progresses, but it is already a solid and reliable companion to the board reconstruction.
+
+---
+
 ## 📁 Repository Structure
 
 | Path | Description |
@@ -101,26 +115,4 @@ This reconstruction preserves the original routing and component placement as cl
 ### **Open in KiCad**
 ```bash
 git clone https://github.com/Bambleweeny57/zxspectrum_issue3b
-```
-Open the project in KiCad to explore, modify, or export manufacturing files.
-
-### **Manufacture Your Own PCB**
-- Export Gerbers from KiCad  
-- Send to your preferred PCB manufacturer  
-- Populate using original Sinclair values or modern equivalents  
-- Optionally install the coil or composite PCBs for improved reliability and video quality  
-
----
-
-## 🤝 Contributing
-
-Corrections, improvements, and build reports are welcome.  
-If you have high‑resolution scans or verified component placement photos, they can help refine the project further.
-
----
-
-## 📜 License
-
-Released for educational, preservation, and hobbyist use.  
-Please respect Sinclair’s original design heritage.
 
