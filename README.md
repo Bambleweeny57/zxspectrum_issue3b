@@ -131,7 +131,7 @@ This project is released for educational, preservation, and hobbyist use.
 You are free to study, modify, and build from the files provided.
 
 The original Sinclair ZX Spectrum design remains the intellectual property of its respective rights holders.  
-Please credit this repository when redistributing modified versions, and respect the historical significance of the original hardware.
+Please respect the historical significance of the original hardware.
 
 ---
 
