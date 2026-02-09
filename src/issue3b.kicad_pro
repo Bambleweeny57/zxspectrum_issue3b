@@ -226,7 +226,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1333500|4838700|d728cbc6-6af6-46ed-a0d0-c3a0f43b93cd|8202091f-ada6-432c-83e4-ff8689036cad|/07f22ea6-4813-487d-9e01-b5b6de3af68a|/07f22ea6-4813-487d-9e01-b5b6de3af68a|/07f22ea6-4813-487d-9e01-b5b6de3af68a",
+        ""
+      ],
+      [
+        "pin_to_pin|2882900|5549900|439956bb-9a26-4fec-9974-fb499aaa5bfc|8202091f-ada6-432c-83e4-ff8689036cad|/07f22ea6-4813-487d-9e01-b5b6de3af68a|/07f22ea6-4813-487d-9e01-b5b6de3af68a|/07f22ea6-4813-487d-9e01-b5b6de3af68a",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1219200|2997200|f071aa98-9058-42b5-8f0f-02781e1cdd2d|00000000-0000-0000-0000-000000000000|/07f22ea6-4813-487d-9e01-b5b6de3af68a|/07f22ea6-4813-487d-9e01-b5b6de3af68a|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -610,7 +623,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../images/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
