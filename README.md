@@ -115,4 +115,3 @@ This reconstruction preserves the original routing and component placement as cl
 ### **Open in KiCad**
 ```bash
 git clone https://github.com/Bambleweeny57/zxspectrum_issue3b
-
