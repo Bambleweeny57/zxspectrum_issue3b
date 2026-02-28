@@ -2567,7 +2567,7 @@
 	(footprint "spectrum3b:Speaker"
 		(layer "F.Cu")
 		(uuid "19edcccb-cf95-4734-9679-26420c0cceb5")
-		(at 233.9048 141.204)
+		(at 345.6472 140.3169)
 		(property "Reference" "LS1"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -4067,7 +4067,7 @@
 	(footprint "spectrum3b:Modulator"
 		(layer "F.Cu")
 		(uuid "2f4a41c3-9691-41c8-86b0-5387fbe8dcfe")
-		(at 70.2602 42.866)
+		(at 69.5607 -27.132)
 		(property "Reference" "TV1"
 			(at 0 -14.5 0)
 			(unlocked yes)
@@ -6196,7 +6196,7 @@
 	(footprint "spectrum3b:Coil"
 		(layer "F.Cu")
 		(uuid "45b54b0e-e8f1-459f-b54b-f09cff531207")
-		(at 241.677 58.6202)
+		(at 334.177 57.4842)
 		(property "Reference" "T1"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -20900,12 +20900,12 @@
 	(footprint "spectrum3b:Passive"
 		(layer "F.Cu")
 		(uuid "fa3cbf9f-7898-47d1-8d08-3ad091f4d6fc")
-		(at 102.11745 86.8087)
+		(at -47.93025 25.27)
 		(property "Reference" "R78"
 			(at 0.25 -0.05615 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "1559d71d-73e1-4d99-a931-3d9297986c3f")
+			(uuid "00736f8e-8249-41ca-8fc8-29fcf5769a4f")
 			(effects
 				(font
 					(size 1 1)
@@ -20918,7 +20918,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "25265167-ee4d-43b6-b3dd-a76d65998864")
+			(uuid "ae4d266b-631c-4d3a-93cb-37f6694dc98a")
 			(effects
 				(font
 					(size 1 1)
@@ -20931,7 +20931,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "016b44f1-ecd4-4c41-8373-2db70d5bc274")
+			(uuid "5696b1ce-8a01-4d76-a0ac-7a70d897c409")
 			(effects
 				(font
 					(size 1 1)
@@ -20944,7 +20944,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e77c8424-23a5-4daa-8a90-241a4d346e24")
+			(uuid "05894cd5-af52-4351-bf44-f7b957700f23")
 			(effects
 				(font
 					(size 1 1)
