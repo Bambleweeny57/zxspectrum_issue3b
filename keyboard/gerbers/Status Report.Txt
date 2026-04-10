@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [keyboard.PrjPcb]
+   Generated File[keyboard4.TXT]
+   Generated File[keyboard4.LDP]
+   Generated File[keyboard4.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 10:36:03 AM On 8/17/2021
